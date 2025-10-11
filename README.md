@@ -73,8 +73,8 @@ There are multiple alternative ways to use `printf` in your own project; the bul
 
 **Use not involving CMake:**
 
-* Copy `printf.c` and `printf.h` into your own project, and compile the source however you see fit. Remember that the library requires compilation with the C99 language standard enabled.
-* Include the contents of `printf.c` into your own code - which can be either C or C++. Remember, though, the library is written in the "intersection" of C99 and C++11, so older-standard C programs may not just accept it.
+* Copy `printf.c` and `printf.h` into your own project, and compile the source however you see fit.
+* Include the contents of `printf.c` into your own code - which can be either C or C++
 
 Whichever way you choose to use the library:
 
